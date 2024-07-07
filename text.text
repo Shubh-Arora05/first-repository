@@ -1,0 +1,39 @@
+ <div class ="md:flex flex md:flex-row ">
+    <div class ="bg-slate-400 md:w-60 min-w-fit  md:min-h-screen h-32 p-4 " >
+        <ul class ="md:text-3xl text-xl inline-flex md:grid md:grid-rows-5 md:py-6 px-6">
+
+        <li class ="md:px-12 md:pb-6 px-6 " ><a class ="" href="home.html">Home</a></li>
+        <li><a class ="md:px-12 md:py-6 px-6" href="my_intro.html">MyIntro</a></li>
+        <li><a class ="md:px-12 md:py-6 px-6" href="blogs.html">Blog</a></li>
+        <li><a class ="md:px-12 md:py-6 px-6" href="service.html">Service</a></li>
+        <li><a class ="md:px-12 md:py-6 px-6" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+
+
+        <div class ="md:flex flex md:flex-row flex-col ">
+    <div class ="bg-slate-400 md:w-60 min-w-fit  md:min-h-screen h-32 p-4 " >
+        <ul class ="md:text-3xl text-xl inline-flex md:grid md:grid-rows-5 md:py-6 px-6">
+
+        <li class ="md:px-12 md:pb-6 px-6 " ><a class ="" href="home.html">Home</a></li>
+        <li><a class ="md:px-12 md:py-6 px-6" href="my_intro.html">MyIntro</a></li>
+        <li><a class ="md:px-12 md:py-6 px-6" href="blog.html">Blog</a></li>
+        <li><a class ="md:px-12 md:py-6 px-6" href="service.html">Service</a></li>
+        <li><a class ="md:px-12 md:py-6 px-6" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+
+
+    <div class ="md:flex flex md:flex-row flex-col ">
+    <div class ="bg-slate-400 md:w-60 min-w-fit  md:min-h-screen h-32 p-4 " >
+        <ul class ="md:text-3xl text-xl inline-flex md:grid md:grid-rows-5 md:py-6 px-6">
+
+        <li class ="md:px-12 md:pb-6 px-6 " ><a class ="" href="home.html">Home</a></li>
+        <li><a class ="md:px-12 md:py-6 px-6" href="my_intro.html">MyIntro</a></li>
+        <li><a class ="md:px-12 md:py-6 px-6" href="blogs.html">Blog</a></li>
+        <li><a class ="md:px-12 md:py-6 px-6" href="service.html">Service</a></li>
+        <li><a class ="md:px-12 md:py-6 px-6" href="contact.html">Contact</a></li>
+        </ul>
+    </div>

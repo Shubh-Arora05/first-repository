@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubh Arora - Web Development , Data Science and DSA</title>
+     <link rel="stylesheet" href="input.css">
+</head>
+<body class ="min-h-screen bg-slate-100">
+    
+    <div class ="flex flex-row ">
+        <div onclick = "show()" class ="">
+            <svg class =""  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+              </div>
+    <div id ="menu" class =" -ml-12 md:w-60  min-w-fit hidden min-h-screen bg-slate-300 pt-16  p-4 " >
+       
+          
+          <div class ="" onclick="show()" >
+        <ul class ="md:text-3xl text-xl  grid grid-rows-6 gap-10 px-6 " >
+
+<li class ="md:pl-12  pl-6 transform  transition-all hover:scale-x-150 hover:scale-y-100" >
+    <a class ="" href="home.html">Home</a></li>
+<li class ="transform  transition-all hover:scale-x-150 hover:scale-y-100">
+    <a class ="md:pl-12 pl-6" href="my_intro.html">MyIntro</a></li>
+        <li class ="transform  transition-all hover:scale-x-150 hover:scale-y-100"><a class ="md:pl-12  pl-6 " href="blogs.html">Blog</a></li>
+        <li class ="transform  transition-all hover:scale-x-150 hover:scale-y-100"><a class ="md:pl-12  pl-6" href="service.html">Service</a></li>
+        <li class ="transform  transition-all hover:scale-x-150 hover:scale-y-100"><a class ="md:pl-12  pl-6" href="contact.html">Contact</a></li>
+        <!-- <li><a class ="md:px-12 md:py-6 px-6" href="contact.html">Contact</a></li> -->
+        <li class ="transform  transition-all hover:scale-x-150 hover:scale-y-100"><a class ="md:pl-12  pl-6" href="our_team.html">TEAM</a></li>
+        </ul>
+
+
+</div>
+    
+    </div>
+    <div onclick = "show()" class ="-ml-2" id ="cross" >
+        <svg class ="-mx-10  my-2 " xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+          </svg>
+        </div> 
+    
+
+
+    
+
+
+
+
+
+    
+    <div class =" m-auto mt-6  bg-gray-300 w-[225px] md:min-w-fit max-h-fit p-6 rounded-xl border-2 border-black" >
+    
+
+
+        <p class =" text-2xl md:text-4xl py-6 md:p-12">Contact me for work/general Enquiries</p>
+        <label class ="my-6 text-xl pr-1">Name: </label>
+        
+        <input class ="mb-4 rounded-md px-2 w-40  " type="text" placeholder= "ENTER Name ">
+        <br>
+        
+        <label class ="text-xl pr-1 " >Email: </label>
+        <input class ="mb-1 rounded-md px-2 w-40" type="text" placeholder= "ENTER EMAIL " >
+        <p class ="text-sm mb-4 text-green-950 ">We will never share your email and phone with anyone else .</p>
+        <label class ="my-6 text-xl pr-1">Phone: </label>
+        
+        <input class ="mb-4 rounded-md px-2 w-40" type="text" placeholder= "ENTER  Phone no. ">
+        <br>
+        <label class ="my-6 text-xl pr-1">Enquiries: </label>
+        
+        <input class ="mb-4 rounded-md px-2 w-40" type="text" placeholder= "ENTER Enquiries ">
+        <br>
+        <input type="checkbox"  name="" id="" >
+        <label class ="text-xl ">I want you to work on a project with me. </label>
+         <br>
+
+        <input class ="border-2 border-black hover:text-blue-900 hover:bg-white text-2xl mt-6 bg-blue-500 rounded-xl w-24 text-black" type="submit" name="Sub" id="" value="Submit">
+    </div>
+
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
